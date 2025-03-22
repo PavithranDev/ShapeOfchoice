@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#input {
+    background-image: url(https://img.freepik.com/free-vector/gradient-abstract-wireframe-background_23-2149009903.jpg?ga=GA1.1.199383792.1712407259&semt=ais_hybrid);
+    padding-top: 100px;
+    height: 50vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 7em;
+}
+
+p {
+    font-size: 4em;
+    margin-top: 0;
+}
+
+#number {
+    width: 250px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    background-color: rgb(0, 255, 55);
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#button:hover {
+    background-color: rgb(0, 200, 55);
+}
+
+.circle, .square, .rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: wheat;
+    margin: 10px;
+    text-align: center;
+    background-color: orangered;
+    font-size: 45px;
+}
+
+.circle {
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+}
+
+label {
+    font-size: 30px;
+    padding: 40px;
+    max-height: 80px;
+}
+#box{
+    display: flex;
+}
+.color{
+    width: 70px;
+    height: 40px;
+    border-left: 20px;
+    border-radius: 10%;
+}
